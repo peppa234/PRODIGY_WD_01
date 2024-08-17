@@ -82,6 +82,46 @@ p {
   margin: 10px 0 0 0; 
 }
 
+@media only screen and (max-width: 767px) {
+  #navbar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 10px 5px;
+    background: linear-gradient(to right, #FFEDBC, #ED4264);
+    z-index: 1000; 
+  }
+  .brand {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #7a192d;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    gap: 1px;
+  }
+  
+  #navbar ul li {
+    margin: 0px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 10px;
+  }
+}
+
+
 
 
   
